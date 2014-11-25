@@ -1,0 +1,62 @@
+
+         <h1>Experiment 10: Colour Magnitude Diagram</h1>
+        <!-- <h2>-->
+     <!--    <div style="height:300px; padding: 20px; overflow:scroll; font-weight:normal" align="justify"class="content"> -->
+<div style="font-weight:normal;" align="justify" class="content">
+            <h3> <i>Objective</i> :</h3> 
+            In this project you will determine the distance and age of a cluster of stars using the measured values of apparent visual magnitudes, <strong>$m_V$</strong>, and the color index,<strong> B-V</strong>, for several stars within a cluster. 
+            <h3> <i>Introduction</i> :</h3>
+            <p>The Hertzsprung-Russell (HR) diagram provides the relationship between the absolute magnitude, $M_V$, and the color index of stars. In any particular cluster we expect that a large number of stars would lie on the main sequence. However below a certain magnitude the stars would have branched off to become giants. Recall that more luminous stars have lower magnitude and have shorter life spans. Hence the apparent magnitude as a function of color index, called the color-magnitude plot, would show a sudden turn at small values of $m_V$. Star with smaller values of $m_V$ have left the main sequence in this cluster.</p>
+            <p>The relationship between the apparent magnitude $m_V$ and absolute magnitude $M_V$ is given as follows :</p>
+\begin{eqnarray}
+m_V - M_V&=& 5 log\left(r/10 pc\right) + A_V \end{eqnarray}
+       <p> Here <strong> r</strong> is the distance to the cluster and $A_V$ is the correction due to extinction. The difference $m_V$-$M_V$ is called the <strong>distance modulus </strong>. Once we know this difference we can deduce the distance <strong> r</strong>. For simplicity, here we shall set $A_V$ to zero. The distance modulus of a cluster can be determined by considering the stars on the main sequence. This can be done by comparing the color-magnitude diagram of the cluster with the HR diagram of a reference cluster. // By adding a suitable number $m_V$ of all stars you will find that a subset of stars aligns with the main sequence on the HR diagram. This gives a measure of the difference $m_V$-$M_V$. Use this to determine r.</p>
+       <p>Having done this we can plot the cluster data on the HR diagram. Next we determine the mass of the most luminous star in this cluster which is still on the main sequence. It's position on the diagram gives us it's absolute magnitude. Compare this with the absolute magnitude of Sun, which is 4.8 and deduce it's luminosity relative to solar luminosity, i.e. <strong>(L/Lsun)</strong>. This is related to the mass of star by the formula (Source-Wikipedia) </p>
+			
+			     \begin{eqnarray} \frac{L}{L_{Sun}} &=& \left(\frac{M}{M_{Sun}}\right)^{3.5}\end{eqnarray} 
+                 <p>The lifetime of a star on main sequence is given by the formula:              </p>
+          
+		  \begin{eqnarray}
+T &=& 10^{10} y \left(\frac{M}{M_{Sun}}\right) \left(\frac{L_{Sun}}{L}\right) \\
+&=& 10^{10} y\left(\frac{L_{Sun}}{L}\right)^\frac{2.5}{3.5}
+\end{eqnarray}
+
+
+  <!-- \begin{eqnarray}
+   T &=& 10^{10}y\left(\frac{M}{M_{sun}}\right)\left(\frac{L_{sun}}{L}\right)\\&=& 10^{10} y\left(\frac{L_{sun}}{L}\right)^\frac{2.5}{3.5}\end{eqnarray}
+          -->
+          
+  <p>Hence the ratio of the luminosity of the star relative to solar luminosity gives us the time spent on the main sequence. This is equal to the age of the cluster.</p>
+<!--<p>Now add a suitable number to $m_V$ of all stars so that the plot aligns as best as possible with the reference plot. This gives a measure of the difference $m_V$-$M_V$. Use this to determine r. The difference between your chosen cluster .You will plot the data provided.The data for several different clusters is provided. </p>-->
+<p>Plot the apparent magnitude as a function of color for a particular cluster.Also plot the absolute magnitude as a function of color for a reference cluster. This is essentially the Hertzsprung-Russell plot for this cluster. </p>
+            <h3> <i>User Manual</i> :</h3>
+Please click <!--<a href="C:\wamp\www\AstroWebPages"  target="_blank">--><a href="exp10_ext.php" target="_blank"><font color="red">here</font></a></a> and follow the following steps to see the Colour Magnitude Diagram.
+	<ul>
+	  <li> First load a star cluster data. Then corresponding red coloured discrete data will load on the given black background.</li> <br>
+<li> Now X axis represent colour ($B-V$ ) and Y axis represent relative magnitude ($m_V$). </li>
+<br>
+<li> To convert to absolute magnitude ($M_V$), we have to add to the relative magnitude ($m_V$) an appropriate value such that it red coloured data points will match with the main sequence line.</li>
+<br>
+<li> Usually the added number is negative. Experiment with different values to get a better match. </li><br>
+<li> The amount you are adding with the $m_V$ is equal to the negative of <a href="http://en.wikipedia.org/wiki/Distance_modulus"  target="_blank">distance modulus</a>, $\mu=m_V-M_V$.</li>
+<br>
+<li> You can find out the Distance ($D_L$ ) from the Luminosity distance relation,
+\begin{eqnarray}
+ M_V&=&m_V-5(log_{10} D_L -1)\\
+\Rightarrow D_L &=& 10^{\frac{(m_V-MV)}{5}-1}
+\end{eqnarray}</li>
+<br>
+<li>You can find out the tail of the cluster where the mass density is large.</li><br>
+<li>From there you can find out the age of the cluster.</li><br>
+</ul>
+
+<h3><i>Project </i> : </h3></p>
+<ul><li>Find the 'Luminosity Distance' for 5 different clusters. </li><br>
+<li> Identify the white dwarfs, subgiants, giants and supergiants.</li><br/>
+<li> Find the standard distance of that cluster by your own search amd compare it with your result.</li>
+<br/>
+<li> Calculate the age of the cluster.</li>
+</ul>
+
+          <br>
+		 <br>
