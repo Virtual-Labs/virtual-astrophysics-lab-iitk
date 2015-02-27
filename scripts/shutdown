@@ -1,6 +1,4 @@
 #!/bin/bash
-# shutdown script for Astrophysics lab
-
 # shutdown script stops all the services on the container required to
 # run the lab for the safe dissembling of the lab
 

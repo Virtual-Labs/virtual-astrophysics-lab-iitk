@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm()
+{
+var nm=document.forms["myForm"]["name"].value;
+if (nm==null || nm=="")
+  {
+  alert("Name Must Be Entered!!!");
+  return false;
+  }
+
+}
+</script>
+</head>
+<body>
+<h1>Feedback - IIT KANPUR Virtual Lab</h1>
+<p>
+</p>
+<h2>Physics Department</h2>
+
+<h2>Virtual AstroPhysics Lab</h2>
+	<form name="myForm" action="demo_form.php" onsubmit="return validateForm()" method="post">
+	<!--<form name="form1" id="form1" method="post" >-->
+        <p>&nbsp;</p>
+        <p>Welcome to the IIT KANPUR Virtual Lab online feedback system. Thanks for taking the time to share your feedback. We&#39;ll use the information you provide below to improve our virtual labs.</p>
+        <div><p><b>* Required</b></p></div>
+        <p>&nbsp;</p>
+        <p><b>Name of the user </b>*</p>
+        <div><p><input type="text" value="" name="name" id="name"/></p></div>
+        <p>&nbsp;</p>
+       <!--<p><b>Department </b>*</p>
+        <div><p>
+               	<br />
+                <select style="width:252px" name="subjectId" size="1" id="subjectId" disabled onChange="comboSubmit('sub_combo');">
+					                        <option  value="26" >Civil Engineering</option>
+                                           <option selected value="27" >Physical Sciences</option>
+                                           <option  value="30" >Chemical Sciences</option>
+                                           <option  value="31" >Electronics & Communications</option>
+                                           <option  value="32" >Mechanical Engineering</option>
+                       
+        		</select>
+		         
+        </p></div>
+      <p>&nbsp;</p>
+        <h2><u>Lab Details</u></h2>
+        <div><p>
+        	
+        			<br />
+                <select style="width:252px" name="topicId" size="1" id="topicId" disabled  onChange="comboSubmit('topic_combo');">
+       			 				<option   value="80" >Physical Sciences – Optical Device Characterizations (T)</option>
+        						<option   value="82" >Physical Sciences- Low temp Electrical Transport and Property measurements (T)</option>
+        						<option selected  value="83" >Virtual Astrophysics Lab </option>
+        						<option   value="236" >Virtual Laboratory: Oscillations</option>
+        		                </select>
+                
+                        </p>
+        </div>-->
+        
+                    
+        <p><b>Name of the  Experiment </b></p>
+        <div><p>
+              <input type="hidden" value="173" name="subTopicId" id="subTopicId" />
+       			<select style="width:252px" name="experimentId" size="1" id="experimentId" >
+       		        <option    value="1" >Familiarity with the night sky.</option>
+        	        <option    value="2" >Becoming Familiar with Constellations.</option>
+        	        <option    value="3" selected>Retrograde motion of Mars.</option>
+        	        <option    value="4" >Study of Solar spectrum</option>
+        	        <option    value="5" >Spectral classification of stars.</option>
+        	        <option    value="6" >Extracting position of a Star.</option>
+        	        <option    value="7" >Astronomical distances using Cepheid variables </option>
+        	    	<option    value="8" >Proper Motion of Barnard's Star</option>
+			<option    value="9" >Identification of a Circumpolar Star.</option>
+			<option    value="10" >Distance and age of cluster using Colour Magnitude Diagram</option>
+			<option    value="11" >Orbital Inclination of the planet Mars. </option>
+			<option    value="12" >Measurement of planetary distances </option>
+			<option    value="13" >Measuring distance to the Moon </option>
+			<option    value="14" >Observer's location by means of the stars</option>
+        </select>
+        
+               <input type="hidden" name="combo1" id="combo1"  />   
+        </p></div>
+      <p>&nbsp;</p>
+        
+
+ <h3> Please indicate your agreement with the following statements</h3>
+        <p>&nbsp;</p>
+        <div><div style="width:100%">
+            <table border="0">
+                <thead>
+                <tr>
+                    <td width="23%"></td>
+                    <td width="5%"></td>
+                    <td align="center" width="15%">Excellent</td>
+                    <td align="center" width="12%">Very Good</td>
+                    <td align="center" width="10%">Good</td>
+                    <td align="center" width="12%">Average</td>
+                    <td align="center" width="10%">Poor</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="right" style="background-color:#E8E8E8;">How do you rate the online performance of the experiment?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expPerformance" value="Excellent" id="expPerformance"  />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expPerformance" value="Very Good" id="expPerformance"  />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expPerformance" value="Good" id="expPerformance"  />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expPerformance" value="Average" id="expPerformance"  />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expPerformance" value="Poor" id="expPerformance"  />
+                        </td>                       
+                    </tr>
+                    <tr>
+                        
+                        <td align="right">Were the links provided consistent with the objectives of the experiment?</td>
+                        <td></td>
+                        <td align="center">
+                            <input type="radio" name="expObjectives" value="Excellent" id="expObjectives" />
+                        </td>
+                        <td align="center">
+                            <input type="radio" name="expObjectives" value="Very Good" id="expObjectives" />
+                        </td>
+                        <td align="center">
+                            <input type="radio" name="expObjectives" value="Good" id="expObjectives" />
+                        </td>
+                        <td align="center">
+                            <input type="radio" name="expObjectives" value="Average" id="expObjectives" />
+                        </td>
+                        <td align="center">
+                            <input type="radio" name="expObjectives" value="Poor" id="expObjectives" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" style="background-color:#E8E8E8;">Were the results of the experiment easily interpreted?</td>
+                        <td style="background-color:#E8E8E8;"></td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expResult" value="Excellent" id="expResult" />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expResult" value="Very Good" id="expResult"  />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expResult" value="Good" id="expResult"  />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expResult" value="Average" id="expResult" />
+                        </td>
+                        <td align="center" style="background-color:#E8E8E8;">
+                            <input type="radio" name="expResult" value="Poor" id="expResult" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">A clear understanding of the experiment and related topics was gained</td>
+                        <td></td>
+                        <td align="center">
+                            <input type="radio" name="understandExp" value="Excellent" id="understandExp" />
+                        </td>
+                        <td align="center">
+                            <input type="radio" name="understandExp" value="Very Good" id="understandExp" />
+                        </td>
+                        <td align="center">
+                            <input type="radio" name="understandExp" value="Good" id="understandExp" />
+                        </td>
+                        <td align="center">
+                            <input type="radio" name="understandExp" value="Average" id="understandExp"  />
+                        </td>
+                      <td align="center">
+                            <input type="radio" name="understandExp" value="Poor" id="understandExp"  />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div><p>&nbsp;</p>
+        <p><b>How helpful do you feel the system is?</b></p>
+    
+        <div><p><textarea name="sysHelp" rows="8" cols="75" id="sysHelp"></textarea></p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you experience any problem?</b></p>
+        
+        <div><p><textarea name="sysPblm" rows="8" cols="75" id="sysPblm"></textarea></p></div>
+        <p>&nbsp; </p>
+        <p><b>Is there anything you would like to tell us?</b></p>
+        
+        <div><p><textarea name="tellUs" rows="8" cols="75" id="tellUs"></textarea></p></div>
+        <p>&nbsp;</p>
+      <!--     CHECK LATER-->
+
+  <p><b>Did you feel confident enough while performing the experiment?</b></p>
+        
+        <div><p><input type="radio" name="confidence" value="Yes" id="confidence"  /> 
+        Yes</p></div>
+        <div><p><input type="radio" name="confidence" value="No" id="confidence"   /> 
+        No</p></div>
+        <div><p><input type="radio" name="confidence" value="Cannot say" id="confidence"    /> 
+        Can&#39;t say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Was the experiment/process motivating enough?</b></p>
+        
+        <div><p><input type="radio" name="expMotivation" value="Yes" id="expMotivation"  /> 
+        Yes</p></div>
+        <div><p><input type="radio" name="expMotivation" value="No" id="expMotivation"  /> 
+        No</p></div>
+        <div><p><input type="radio" name="expMotivation" value="Cannot say" id="expMotivation" /> 
+        Can&#39;t say</p></div>
+        <p>&nbsp;</p>
+        <p><b>Did you go through the manual/ step by step procedure before performing the experiments live?</b></p>
+        
+        <div><p><input type="radio" name="stepmethdExp" value="Yes" id="stepmethdExp" /> 
+        Yes</p></div>
+        <div><p><input type="radio" name="stepmethdExp" value="No" id="stepmethdExp" /> 
+        No</p></div>
+         <p>&nbsp;</p>
+        
+        <p><b>Specify three problems/difficulties you faced while performing the experiments?</b></p>
+        <div><p>
+            <textarea name="threePblms" rows="8" cols="75" id="threePblms"></textarea>
+        </p></div>
+        <p>&nbsp;</p>
+        <p><b>Describe three interesting things about the experiments.</b></p>
+        
+        <div><p>
+            <textarea name="threeThings" rows="8" cols="75" id="threeThings"></textarea>
+        </p></div>
+	
+        
+<!--
+        <p>&nbsp;</p>
+        <p><b>Do you think doing experiments through virtual lab gives scope for more innovative and creative research work?</b></p>
+        <p>&nbsp;</p>
+        <div><p>
+            <input type="radio" name="moreScope" value="Yes" id="moreScope"  /> 
+            Yes        </p>
+        <p>
+            <input type="radio" name="moreScope" value="No" id="moreScope" /> 
+            No        </p></div>
+        <p>&nbsp;</p>
+        
+<p>
+<img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' ><br>
+<label for='message'>Enter the code above here :</label><br>
+<input id="6_letters_code" name="6_letters_code" type="text"><br>
+<small>Can't read the image? click <a href='javascript: refreshCaptcha();'>here</a> to refresh</small>
+</p>
+<p>&nbsp;</p> 
+
+
+<div><p>
+            <b>Please type in the code shown. </b>*<br />
+            <input type="text" name="captcha_code" size="15" class=""/><br />
+            <img id="captcha" src="captcha/captchadisp.php?md5(uniqid(time())); " style="padding-top:8px"/>
+        </p>
+        <p>
+                </p>
+        <p>&nbsp;</p>   -->
+                <p align="center" ><br />
+            <input type="submit" value="Submit" style="width:10%;">  
+	
+        </p> 
+        </div>   
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </form>
+
+</div>
+</div></div></td>
+               
+</body>
+</html>
+
+
+

@@ -1,6 +1,4 @@
 #!/bin/bash
-# startup Script for Astrophysics Lab
-
 # startup script starts all the services on the container required to
 # run the lab 
 
@@ -11,3 +9,4 @@
 
 # starts the Apache service
 service apache2 start
+
