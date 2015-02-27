@@ -1,5 +1,4 @@
-{
-    "lab": {
+b": {
         "build_requirements": {
             "platform": {
                 "arch": "i386", 
@@ -11,8 +10,8 @@
                     "status": []
                 }, 
                 "installer": [], 
-                "os": "centos", 
-                "osVersion": "6.6", 
+                "os": "ubuntu", 
+                "osVersion": "12", 
                 "service_pack": ""
             }
         }, 
@@ -26,7 +25,7 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Kanpur", 
+                    "institute": "IIIT Hyderabad", 
                     "name": "Jawahar C.V", 
                     "organization": "", 
                     "role": "Lab Developer", 
@@ -41,7 +40,7 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Kanpur", 
+                    "institute": "IIIT Hyderabad", 
                     "name": "Phani Phani", 
                     "organization": "", 
                     "role": "Lab RA", 
@@ -56,7 +55,7 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Kanpur", 
+                    "institute": "IIIT Hyderabad", 
                     "name": "Kumar Srijan", 
                     "organization": "", 
                     "role": "Lab RA", 
@@ -71,7 +70,7 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Kanpur", 
+                    "institute": "IIIT Hyderabad", 
                     "name": "Jay Panda", 
                     "organization": "", 
                     "role": "Lab RA", 
@@ -86,7 +85,7 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Kanpur", 
+                    "institute": "IIIT Hyderabad", 
                     "name": "Shashank Sharma", 
                     "organization": "", 
                     "role": "Lab RA", 
@@ -113,7 +112,7 @@
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
-                    "init": ["mv /var/www/index.php index.php.default",
+                    "init": ["mv /var/www/index.html index.html.default",
                         "cp -r ../build/* /var/www/"
                         ], 
                     "pause": [], 
