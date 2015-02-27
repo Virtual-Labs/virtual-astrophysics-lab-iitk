@@ -1,5 +1,0 @@
-UBV CCD observations
-
-  No    Ref    V       B-V     U-B
-
- 4023   113  18.740   1.720
