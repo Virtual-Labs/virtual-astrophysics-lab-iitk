@@ -1,4 +1,5 @@
 {
+    "lab": {
         "build_requirements": {
             "platform": {
                 "arch": "i386", 
@@ -20,13 +21,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "jawahar@iiit.ac.in", 
+                        "email": "azeemuddin.s@iiit.ac.in", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
                     "institute": "IIIT Hyderabad", 
-                    "name": "Jawahar C.V", 
+                    "name": "Azeemuddin Syed", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -35,58 +36,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "phani@iiit.ac.in", 
+                        "email": "arjunreddy.aug08@students.iiit.ac.in", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
                     "institute": "IIIT Hyderabad", 
-                    "name": "Phani Phani", 
-                    "organization": "", 
-                    "role": "Lab RA", 
-                    "title": "", 
-                    "web": ""
-                }, 
-                {
-                    "contact": {
-                        "alternate_email": "", 
-                        "email": "kumarsrijan@students.iiit.ac.in", 
-                        "mobile_number": "", 
-                        "office_number": ""
-                    }, 
-                    "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Kumar Srijan", 
-                    "organization": "", 
-                    "role": "Lab RA", 
-                    "title": "", 
-                    "web": ""
-                }, 
-                {
-                    "contact": {
-                        "alternate_email": "", 
-                        "email": "jayaguru.pandaug08@students.iiit.ac.in", 
-                        "mobile_number": "", 
-                        "office_number": ""
-                    }, 
-                    "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Jay Panda", 
-                    "organization": "", 
-                    "role": "Lab RA", 
-                    "title": "", 
-                    "web": ""
-                }, 
-                {
-                    "contact": {
-                        "alternate_email": "", 
-                        "email": "shashank.sharmaug08@students.iiit.ac.in", 
-                        "mobile_number": "", 
-                        "office_number": ""
-                    }, 
-                    "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Shashank Sharma", 
+                    "name": "Arjun Reddy", 
                     "organization": "", 
                     "role": "Lab RA", 
                     "title": "", 
@@ -94,32 +50,30 @@
                 }
             ], 
             "discipline": [
-                "Computer Science & Engineering"
+                ""
             ], 
-            "id": "cse02", 
-            "integration_level": 5, 
-            "name": "Computer Programming", 
+            "id": "emt", 
+            "integration_level": 4, 
+            "name": "Electro Magnetic Theory", 
             "server-side": true, 
             "status": "Released", 
-            "type": ""
+            "type": "Simulation"
         }, 
         "runtime_requirements": {
             "platform": {
                 "arch": "i386", 
                 "hosting": "dedicated", 
-                "installer": ["sudo apt-get update",
-                "sudo apt-get install -y php5 apache2"], 
+                "installer": ["sudo apt-get update","sudo apt-get install -y php5 apache2"], 
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
-                    "init": ["cp -r ../build/* /var/www/","mv /var/www/index.html index.html.default"
-                        ], 
+                    "init": ["cp -r ../build/* /var/www/","mv /var/www/index.html index.html.default"], 
                     "pause": [], 
                     "publish": [], 
                     "restore": [], 
                     "resume": [], 
                     "shutdown": ["service apache2 stop"], 
-                    "start": ["service apache2 start"],  
+                    "start": ["service apache2 start"], 
                     "stats": [], 
                     "stop": []
                 }, 
