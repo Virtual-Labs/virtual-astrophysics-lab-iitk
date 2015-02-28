@@ -52,7 +52,7 @@
             "discipline": [
                 ""
             ], 
-            "id": "emt", 
+            "id": "phy01", 
             "integration_level": 4, 
             "name": "Virtual Astrophysics Lab", 
             "server-side": true, 
