@@ -1,0 +1,4 @@
+S.no		Test case link
+1. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/To identify a Circumpolar Star/To%20identify%20a%20Circumpolar%20Star_01_Usability_smk.org][To identify a Circumpolar Star_01_Usability_smk.org]]
+2. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/To identify a Circumpolar Star/To%20identify%20a%20Circumpolar%20Star_02_Landing%20Page_smk.org][To identify a Circumpolar Star_02_Landing Page_smk.org]]
+3. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/To identify a Circumpolar Star/To%20identify%20a%20Circumpolar%20Star_03_Images_p2.org][To identify a Circumpolar Star_03_Images_p2.org]]

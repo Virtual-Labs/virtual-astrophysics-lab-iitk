@@ -1,0 +1,3 @@
+S.no		Test case link
+1. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/To measure the Proper Motion of Barnard's Star/To%20measure%20the%20Proper%20Motion%20of%20Barnard%27s%20Star_01_Usability_smk.org][To measure the Proper Motion of Barnard's Star_01_Usability_smk.org]]
+2. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/To measure the Proper Motion of Barnard's Star/To%20measure%20the%20Proper%20Motion%20of%20Barnard%27s%20Star_02_Landing%20Page_smk.org][To measure the Proper Motion of Barnard's Star_02_Landing Page_smk.org]]

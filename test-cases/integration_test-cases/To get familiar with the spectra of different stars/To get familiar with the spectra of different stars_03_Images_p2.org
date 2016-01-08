@@ -1,0 +1,30 @@
+* Author: Nihanth
+* Date Created: 08 Jan 2016
+* Environment
+  - OS: Windows 7, Linux
+  - Browsers: Firefox,Chrome
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GBRAM , 
+  - Processor:i5
+
+* Objective
+  - To view the images of  “Spectral classification of stars” experiment
+
+* Pre conditions
+  - Refer to first test case [[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/To get familiar with the spectra of different stars/To get familiar with the spectra of different stars_01_Usability_smk.org][To get familiar with the spectra of different stars_01_Usability_smk.org]]
+
+* Post conditions
+  - Nil
+* Test Steps
+  1. Click on the“Spectral classification of stars” experimentlink 
+  2. It should re-direct to the experiment home page
+  3. Click on the images displayed on the screen
+
+* Expected result
+  1. Experiment home page should be opened
+  2. Content should be present with no distortions and Junk characters
+  3. A new tab should be opened with the selected image and zoom options should work
+
+* Review/comments
+
+

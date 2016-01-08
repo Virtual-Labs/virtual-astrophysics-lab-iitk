@@ -1,0 +1,10 @@
+S.no		Test case link
+1. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_01_Usability_smk.org][Virtual Astrophysics_01_Usability_smk.org]]
+2. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_02_Objective_smk.org][Virtual Astrophysics_02_Objective_smk.org]]
+3. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_03_Future-work_smk.org][Virtual Astrophysics_03_Future-work_smk.org]]
+4. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_04_Software_smk.org][Virtual Astrophysics_04_Software_smk.org]]
+5. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_05_Downloads_smk.org][Virtual Astrophysics_05_Downloads_smk.org]]
+6. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_06_Contactus_smk.org][Virtual Astrophysics_06_Contactus_smk.org]]
+7. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_07_Feedback_smk.org][Virtual Astrophysics_07_Feedback_smk.org]]
+8. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_08_Feedback_p1.org][Virtual Astrophysics_08_Feedback_p1.org]]
+9. 	[[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk/blob/master/test-cases/integration_test-cases/Systems/Virtual%20Astrophysics_09_Feedback_p1.org][Virtual Astrophysics_09_Feedback_p1.org]]
